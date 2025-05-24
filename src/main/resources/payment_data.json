@@ -1,0 +1,69 @@
+{
+  "payments": [
+    {
+      "paymentId": "1",
+      "paymentDate": "2022-07-01",
+      "paymentAmount": "24292.46",
+      "currency": "INR",
+      "paymentStatus": "AWAITING_APPROVAL",
+      "companyId": "TEST1",
+      "userId": "USER2",
+      "originatingAccount": "2495458",
+      "recipientName": "recipient38",
+      "recipientAccount": "97764",
+      "recipientBankId": "121000248"
+    },
+    {
+      "paymentId": "2",
+      "paymentDate": "2022-07-01",
+      "paymentAmount": "3453.25",
+      "currency": "USD",
+      "paymentStatus": "COMPLETED",
+      "companyId": "TEST1",
+      "userId": "USER1",
+      "originatingAccount": "3972499",
+      "recipientName": "recipient21",
+      "recipientAccount": "95816",
+      "recipientBankId": "121000248"
+    },
+    {
+      "paymentId": "3",
+      "paymentDate": "2020-03-28",
+      "paymentAmount": "2525.86",
+      "currency": "USD",
+      "paymentStatus": "AWAITING_REPAIR",
+      "companyId": "TEST2",
+      "userId": "USER1",
+      "originatingAccount": "3703231",
+      "recipientName": "recipient47",
+      "recipientAccount": "91760",
+      "recipientBankId": "121000248"
+    },
+    {
+      "paymentId": "4",
+      "paymentDate": "2020-09-24",
+      "paymentAmount": "49240.17",
+      "currency": "INR",
+      "paymentStatus": "COMPLETED",
+      "companyId": "TEST2",
+      "userId": "USER2",
+      "originatingAccount": "7944496",
+      "recipientName": "recipient74",
+      "recipientAccount": "97317",
+      "recipientBankId": "999999999"
+    },
+    {
+      "paymentId": "5",
+      "paymentDate": "2020-09-24",
+      "paymentAmount": "49240.17",
+      "currency": "INR",
+      "paymentStatus": "AWAITING_APPROVAL",
+      "companyId": "TEST2",
+      "userId": "USER3",
+      "originatingAccount": "7944496",
+      "recipientName": "recipient74",
+      "recipientAccount": "97317",
+      "recipientBankId": "999999999"
+    }
+  ]
+}
