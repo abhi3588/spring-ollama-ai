@@ -21,7 +21,7 @@ public class PaymentService {
     private final OllamaClient ollamaClient;
     private final ObjectMapper objectMapper;
 
-    public List<Payment> getFilteredPayments(String prompt) throws Exception {
+    public String getFilteredPayments(String prompt) throws Exception {
         return ollamaClient.getFilteredPayments(prompt);
     }
 

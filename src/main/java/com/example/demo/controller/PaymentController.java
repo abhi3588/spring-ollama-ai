@@ -17,7 +17,7 @@ public class PaymentController {
     private final PaymentService paymentService;
 
     @GetMapping("/filter")
-    public List<Payment> filterPayments(@RequestParam String prompt) throws Exception {
+    public String filterPayments(@RequestParam String prompt) throws Exception {
         return paymentService.getFilteredPayments(prompt);
     }
 

@@ -9,8 +9,6 @@
       "companyId": "TEST1",
       "userId": "USER2",
       "originatingAccount": "2495458",
-      "recipientName": "recipient38",
-      "recipientAccount": "97764",
       "recipientBankId": "121000248"
     },
     {
@@ -22,8 +20,6 @@
       "companyId": "TEST1",
       "userId": "USER1",
       "originatingAccount": "3972499",
-      "recipientName": "recipient21",
-      "recipientAccount": "95816",
       "recipientBankId": "121000248"
     },
     {
@@ -35,8 +31,6 @@
       "companyId": "TEST2",
       "userId": "USER1",
       "originatingAccount": "3703231",
-      "recipientName": "recipient47",
-      "recipientAccount": "91760",
       "recipientBankId": "121000248"
     },
     {
@@ -48,21 +42,6 @@
       "companyId": "TEST2",
       "userId": "USER2",
       "originatingAccount": "7944496",
-      "recipientName": "recipient74",
-      "recipientAccount": "97317",
-      "recipientBankId": "999999999"
-    },
-    {
-      "paymentId": "5",
-      "paymentDate": "2020-09-24",
-      "paymentAmount": "49240.17",
-      "currency": "INR",
-      "paymentStatus": "AWAITING_APPROVAL",
-      "companyId": "TEST2",
-      "userId": "USER3",
-      "originatingAccount": "7944496",
-      "recipientName": "recipient74",
-      "recipientAccount": "97317",
       "recipientBankId": "999999999"
     }
   ]
