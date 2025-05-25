@@ -4,8 +4,8 @@ import com.example.demo.domain.Payments;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.Prompt;
-import org.springframework.ai.openai.OpenAiChatModel;
-import org.springframework.ai.openai.OpenAiChatOptions;
+import org.springframework.ai.ollama.OllamaChatModel;
+import org.springframework.ai.ollama.api.OllamaOptions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
@@ -18,10 +18,10 @@ import java.util.regex.Pattern;
 @Component
 public class OllamaClient {
 
-    private final OpenAiChatModel chatModel;
+    private final OllamaChatModel chatModel;
 
     @Autowired
-    public OllamaClient(OpenAiChatModel chatModel) {
+    public OllamaClient(OllamaChatModel chatModel) {
         this.chatModel = chatModel;
     }
 
@@ -80,7 +80,7 @@ public class OllamaClient {
                 """.formatted(paymentsJsonString);
 
         System.out.println("Prompt :: " + fullPrompt);
-        Prompt p = new Prompt(fullPrompt, OpenAiChatOptions.builder().build());
+        Prompt p = new Prompt(fullPrompt, OllamaOptions.builder().build());
         ChatResponse response = this.chatModel.call(p);
         String textContent = response.getResult().getOutput().getText();
         System.out.println("Text Content :: " + textContent);
